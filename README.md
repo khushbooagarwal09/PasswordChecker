@@ -1,0 +1,4 @@
+# Password_checker
+
+Developed using an API, this project lets the user to know whether his/her password has ever been a part of a data breach. The project tries to replicate the functioning of the website haveibeenpwned.com wherein when the user types in his/her password he/she gets to know about the number of times their password has been hacked and tries to help one secure his or her password. For accomplishing this, an API to this site has been incorporated in the code, and the password to be checked is first converted to its SHA1 equivalent. To secure the transfer even further the program uses the technique of “K-Anonymity” wherein we only send in the first five letters of the hashed password and the API returns the list of all the hacked passwords beginning with the same five letters as our hashed password. It is from this list that the user’s input password is checked against and the output is generated.
+
